@@ -17,6 +17,7 @@ const Header = ({ toggleDarkMode, isDarkMode }) => {
           )}
         </button>
         <Link to="/projects" className="font-semibold text-blue-950 dark:text-white hover:text-red-500 transition duration-500 ease-in-out ">Projects</Link>
+        <Link to="/Skills" className="text-blue-950 font-semibold hover:text-red-500 dark:text-white transition duration-500 ease-in-out">Skills</Link>
         <Link to="/contact" className="text-blue-950 font-semibold hover:text-red-500 dark:text-white transition duration-500 ease-in-out">Contact</Link>
         <Link to="/resume" className="px-4 py-2 bg-red-600 text-white rounded font-semibold dark:text-white hover:bg-red-700 transition duration-500 ease-in-out">Resume</Link>
       </nav>

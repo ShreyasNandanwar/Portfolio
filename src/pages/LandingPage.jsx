@@ -43,6 +43,7 @@ const LandingPage = () => {
           />
           <Link to="/about" className="font-roboto mt-10 px-6 py-3 font-bold bg-red-600 text-white rounded tracking-wider hover:bg-red-700 transition duration-300 animate-slidein opacity-0 [--slidein-delay:700ms]">About me</Link>
         </div>
+
       </div>
     </div>
   )
