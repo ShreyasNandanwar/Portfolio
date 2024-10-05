@@ -1,7 +1,21 @@
+// src/App.jsx
+
+
+import React from 'react'
+import { Outlet } from 'react-router-dom'
 import './App.css'
 
-function App() {
+
+const App = () => {
   
+  return (
+    <div>
+      <main>
+        <Outlet />
+      </main>
+    </div>
+
+  )
 }
 
 export default App
